@@ -1,0 +1,161 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #3AB09E;
+}
+
+ul {
+    text-align: center;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin: 0; padding: 0;
+}
+
+li {
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-bottom: -1px;
+    border-bottom: 1px solid #3AB09E;
+    border-top: 1px solid #3AB09E;
+    padding: 20px;
+    
+}
+
+#logo {
+	text-align: center;
+	background-color: #2d2d2d;
+	padding-top: 10px;
+}
+
+.search {
+	width: 96%;
+	height: 145px;
+	background-color:   #2d2d2d;
+	padding: 2%;
+}
+
+.searchbox {
+	width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 0 !important;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.searchbutton {
+	width: 150px;
+	margin: auto;
+}
+
+.searchbutton {
+	display		   : block;
+	position       : relative;
+	padding        : 25px 0;
+	margin         : 25px auto;
+	font-family    : sans-serif;
+	font-size      : 14px;
+	font-weight    : bold;
+	text-transform : uppercase;
+	text-align	   : center;
+	color          : white;
+	letter-spacing : 1px;
+	border         : none;
+	cursor         : pointer;
+	width          : 270px;
+	outline		   : none;
+	overflow	   : hidden;
+	box-sizing 	   : border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing : border-box;
+	background-color : transparent;
+	border-radius    : 40px;
+	border           : solid 2px white;
+	transition       : all 0.3s ease;
+}
+.searchbutton:hover {
+	background-color : rgba(0, 0, 0, 0.7);
+}
+.searchbutton:active{
+  border-color : #2d2d2d;
+  color        : #2d2d2d;
+}
+
+.card {
+	padding: 20px;
+	margin-top: -1em;
+	background-color:  #3AB09E;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 20px;
+	clear: both;
+}
+
+.card.nr {
+	background-color:  #3AB09E;	
+}
+
+.card.results {
+		height: 50px;
+		background-color:  #3AB09E;
+	
+}
+
+.bcard {
+	float: left;
+	width: 40%;
+	height: 40px;
+	text-align: left;
+	
+}
+
+.usern {
+	float: left;
+}
+
+.usern.un{
+	padding: 12px;
+}
+
+.bcard.rn {
+	padding: 12px;
+	padding-right: 5px;
+	float: right;
+	text-align: right;
+}
+
+.usr-avatar {
+	border-radius: 50px;
+	width: 50px;
+}
+
+#repo {
+	clear:both;
+	list-style-type: none;
+}
+
+.title {
+	color: #3AB09E;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
